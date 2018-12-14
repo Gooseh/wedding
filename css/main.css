@@ -2,12 +2,47 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 a {
-    color: #000;
+    color: #65696E;
 }
 a:hover {
-    color: #000;
+    color: #65696E;
 }
 .header {
     display: flex;
     height: 50px;
 }
+/* FORM ------------------------------------------------------------------ */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 2px solid #A5B4C1; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 4px; /* Add a top margin */
+    margin-bottom: 4px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #65696E;
+    color: white;
+    padding: 12px 20px;
+    margin-top: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button */
+  input[type=submit]:hover {
+    background-color: #65696E;
+  }
+  
+  /* Add a background color and some padding around the form */
+  .container {
+    border-radius: 5px;
+    background-color: #CAD1D9;
+    padding: 20px;
+  }
